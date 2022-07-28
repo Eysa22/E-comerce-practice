@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .no-cursor {
     cursor: not-allowed;
 }
@@ -30,6 +34,14 @@ img{
 
 p{
     line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .nav__container{
@@ -309,6 +321,10 @@ footer{
     background-color: #242424;
 }
 
+.footer__logo{
+    display: flex;
+}
+
 .footer__logo--img{
     width: 160px;
     filter: grayscale(1) invert(1);
@@ -319,7 +335,6 @@ footer{
 }
 
 .footer__link{
-    text-decoration: none;
     color: #ffffff;
     padding: 0 8px;
 }
